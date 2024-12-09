@@ -1,4 +1,5 @@
 baseURL: "https://maayurri.blog/"
 title: Maayurri's blog
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
