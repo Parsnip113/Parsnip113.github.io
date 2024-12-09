@@ -1,0 +1,4 @@
+baseURL: "https://maayurri.blog/"
+title: Maayurri's blog
+paginate: 5
+theme: PaperMod
