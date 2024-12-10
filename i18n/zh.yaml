@@ -11,7 +11,7 @@
 
 - id: words
   translation:
-    one: "字"
+    one: "1 字"
     other: "文章共{{ .Count }}字"
 
 - id: toc

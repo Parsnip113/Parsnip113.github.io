@@ -1,0 +1,30 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (.Date | time.Format "2006年1月2日")) }}
+{{- end }}
+
+{{- if not (.Param "hideReadingTime") -}}
+    {{- $content := .Content }}
+    {{- $chineseCount := len (findRE "\\p{Han}" $content) }}
+    {{- $englishWords := len (findRE "[a-zA-Z-]+[a-zA-Z]" $content) }}
+    {{- $totalCount := add $chineseCount $englishWords }}
+    {{- $readTime := math.Round (div $totalCount 400.0) }}
+
+    {{- $wordCount := dict "Count" $totalCount }}
+    {{- $readingTime := dict "Count" $readTime }}
+
+    {{- $scratch.Add "meta" (slice (T "words" $wordCount)) }}
+    {{- $scratch.Add "meta" (slice (T "read_time" $readingTime)) }}
+{{- end }}
+
+{{- if .IsTranslated -}}
+{{- $scratch.Add "meta" (slice (T "translations")) }}
+{{- range .Translations }}
+{{- $scratch.Add "meta" (slice ( printf "<a href='%s'>%s</a>" .RelPermalink (.Language.LanguageName) | safeHTML)) -}}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

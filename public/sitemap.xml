@@ -3,20 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-09T18:10:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-second-post/</loc>
-    <lastmod>2024-12-09T18:10:26+08:00</lastmod>
+    <lastmod>2024-12-10T12:29:25+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-09T18:10:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2024-12-09T16:04:39+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-12-10T12:29:25+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-10T12:29:25+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/open-source_recommend_books/</loc>
+    <lastmod>2024-12-10T12:29:25+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%BD%AC%E8%BD%BD/</loc>
+    <lastmod>2024-12-10T12:29:25+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
