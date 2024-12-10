@@ -7,12 +7,12 @@
 - id: read_time
   translation:
     one : "1 分钟"
-    other: "{{ .Count }} 分钟"
+    other: "阅读时间≈{{ .Count }}分钟"
 
 - id: words
   translation:
     one: "字"
-    other: "{{ .Count }} 字"
+    other: "文章共{{ .Count }}字"
 
 - id: toc
   translation: "目录"

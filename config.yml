@@ -28,7 +28,7 @@ params:
   title: Maayurri's blog
   description: "Mayurri's blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Maayurri
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -55,8 +55,8 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/favicon.ico"
-    favicon16x16: "/favicon.svg"
-    favicon32x32: "/favicon.svg"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/favicon.svg"
 
@@ -125,6 +125,10 @@ menu:
     - identifier: search
       name: 搜索
       url: /search/
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
       weight: 10
     - identifier: categories
       name: 分类
