@@ -33,7 +33,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Maayurri's blog
-  description: "Mayurri's blog"
+  description: "Mayurri's blog, 技术分享、生活随笔与个人思考的角落"
   keywords: [Blog, Tech, Programmer, golang, backend]
   author: Maayurri
   # author: ["Me", "You"] # multiple authors
@@ -74,7 +74,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Maayurri's blog
     subtitle: "Not all those who wander are lost."
     imageUrl: "images/xiaoren.png"
@@ -88,7 +88,14 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Maayurri's blog 🙂"
-    Content: Not all those who wander are lost.
+    Content: |
+      Not all those who wander are lost.
+      并非所有流浪的人都迷失了方向。
+
+      🚀 这里是我的数字花园
+      💡 记录有趣的技术发现
+      📖 分享学习和思考
+      🌟 希望能为你带来一些启发
 
   socialIcons:
     - name: x

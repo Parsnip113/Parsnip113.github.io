@@ -9,10 +9,17 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.3</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Dec 2024 12:29:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 19:38:28 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CORS跨域资源共享</title>
+      <link>http://localhost:1313/posts/cors_1/</link>
+      <pubDate>Wed, 18 Dec 2024 19:38:28 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cors_1/</guid>
+      <description>Desc Text.</description>
+    </item>
     <item>
       <title>开源书单1.0(转载)</title>
       <link>http://localhost:1313/posts/open-source_recommend_books/</link>
