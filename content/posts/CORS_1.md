@@ -17,7 +17,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -168,7 +168,7 @@ nginx复制代码server {
             add_header 'Access-Control-Allow-Headers' 'Content-Type, Authorization';
             return 204;
         }
-        
+
         add_header 'Access-Control-Allow-Origin' 'https://www.example.com';
         add_header 'Access-Control-Allow-Methods' 'GET, POST, DELETE';
         add_header 'Access-Control-Allow-Headers' 'Content-Type, Authorization';
