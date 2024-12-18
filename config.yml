@@ -13,6 +13,12 @@ buildExpired: false
 enableInlineShortcodes: true
 enableEmoji: true
 
+# Sitemap 配置
+sitemap:
+  changefreq: 'weekly'
+  filename: 'sitemap.xml'
+  priority: 0.5
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -22,12 +28,13 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+    - SITEMAP
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Maayurri's blog
   description: "Mayurri's blog"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Tech, Programmer, golang, backend]
   author: Maayurri
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -81,7 +88,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Maayurri's blog 🙂"
-    Content: 霸念，野心，爱恨
+    Content: Not all those who wander are lost.
 
   socialIcons:
     - name: x
