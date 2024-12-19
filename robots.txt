@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# 禁止所有爬虫爬取特定文件类型
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Google specific
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+
+# 站点地图
+Sitemap: https://maayurri.blog/sitemap.xml
