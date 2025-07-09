@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - 分类 - Maayurri&#39;s blog</title>
+        <link>http://maayurri.blog/categories/</link>
+        <description>Categories - 分类 - Maayurri&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>songtianyi03@gmail.com (Maayurri)</managingEditor>
+            <webMaster>songtianyi03@gmail.com (Maayurri)</webMaster><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="http://maayurri.blog/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown</title>
+    <link>http://maayurri.blog/categories/markdown/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Maayurri</author>
+    <guid>http://maayurri.blog/categories/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
